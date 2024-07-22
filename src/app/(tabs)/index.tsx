@@ -5,7 +5,7 @@ type HomeProps = ViewProps
 export default function Home({...props}: HomeProps) {
 
   return(
-    <View style={styles.container} {...props}>
+    <View className='' style={styles.container} {...props}>
       <Text>Hello Home</Text>
     </View>
   )
