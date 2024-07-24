@@ -23,7 +23,7 @@ export function DrawerButton({
 }: TabBarButtonProps) {
   return (
     <Pressable
-      className={clsx('py-2 w-full', {
+      className={clsx('py-2 flex-1', {
         'border-b ml-10 border-gray-500': isDivider,
       })}
       {...rest}

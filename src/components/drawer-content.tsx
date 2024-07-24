@@ -26,6 +26,7 @@ export function DrawerContent(drawerProps: DrawerContentComponentProps) {
             const options = drawerProps.descriptors[route.key]
               .options as CustomOptions
 
+            // só vai permitir que uma rota seja mostrada, se for definido um título para ela
             if (options.title === undefined) {
               return null
             }
